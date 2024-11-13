@@ -1,9 +1,3 @@
-CREATE TABLE Alunos (
-    id_aluno SERIAL PRIMARY KEY,
-    nome VARCHAR(255),
-    data_nascimento DATE
-);
-
 CREATE TABLE Professores (
     id_professor SERIAL PRIMARY KEY,
     nome VARCHAR(255)
